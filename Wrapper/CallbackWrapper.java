@@ -1,16 +1,3 @@
-package collabmed.com.collabmeddashboardapp.Wrapper;
-
-import android.arch.lifecycle.MutableLiveData;
-import android.util.Log;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-/**
- * Created by Benn on 12/2/2018.
- */
-
 public class CallbackWrapper<T> implements Callback<T> {
     public MutableLiveData<ResponseWrapper<T>> bodyLiveData;
 

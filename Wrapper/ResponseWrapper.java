@@ -1,16 +1,5 @@
-package collabmed.com.collabmeddashboardapp.Wrapper;
-
-
-/**
- * Created by Benn on 12/2/2018.
- */
-
 public class ResponseWrapper<T> {
     private T data;
-//    /*
-//     * Status 0 - fetching, 1 - success , 2 - error
-//     */
-//    private int status;
 
     private Throwable  throwable;
 
